@@ -11,7 +11,7 @@ var pack = d3.layout.pack()
     .size([diameter - margin, diameter - margin])
     .value(function(d) { return d.size; })
 
-var svg = d3.select(".container").append("svg")
+var svg = d3.select(".frame").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
