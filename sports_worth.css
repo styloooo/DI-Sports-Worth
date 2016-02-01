@@ -34,7 +34,12 @@ h3{
 	font-size:8px;
 }
 
-#frameContainer{
+.frameContainer{
 	width: 550px;
 	height: 550px;
+}
+
+.frame{
+	width: 500px;
+	height: 500px;
 }
