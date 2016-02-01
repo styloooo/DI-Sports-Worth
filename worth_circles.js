@@ -18,7 +18,7 @@ var svg = d3.select(".container").append("svg")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 //d3.json("sports_worth.json", function(error, root) {
-d3.json("http://tadavis2.h.media.illinois.edu/viz/sports_worth/sports_worth.json", function(error, root) {
+d3.json("https://thirawr.github.io/DI-Sports-Worth/sports_worth.json", function(error, root) {
   if (error) throw error;
 
   var focus = root,
