@@ -1,5 +1,5 @@
-var margin = 20,
-    diameter = 500;
+var margin = 10,
+    diameter = 350;
 
 var color = d3.scale.linear()
     .domain([0, 2])
@@ -7,7 +7,7 @@ var color = d3.scale.linear()
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.layout.pack()
-    .padding(10)
+    .padding(25)
     .size([diameter - margin, diameter - margin])
     .value(function(d) { return d.size; })
 
