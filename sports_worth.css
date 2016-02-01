@@ -36,10 +36,11 @@ h3{
 
 .frameContainer{
 	width: 350px;
-	height: 500px;
+	height: 600px;
 	display:inline-block;
 	word-wrap:break-word;
 	float:left;
+	margin: 10px 10px 10px 0px;
 }
 
 .frame{
