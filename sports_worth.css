@@ -35,11 +35,17 @@ h3{
 }
 
 .frameContainer{
-	width: 550px;
-	height: 550px;
+	width: 350px;
+	height: 350px;
 }
 
 .frame{
-	width: 500px;
-	height: 500px;
+	width: 375px;
+	height: 375px;
+}
+
+#intro{
+	font-family:sans-serif;
+	font-size:10px;
+	text-align:center;
 }
