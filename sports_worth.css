@@ -22,3 +22,13 @@
 .node--leaf {
   pointer-events: none;
 }
+
+h3{
+	font-family:sans-serif;
+	text-align:center;
+}
+
+#byline{
+	font-family:sans-serif;
+	text-align:right;
+}
