@@ -38,6 +38,8 @@ h3{
 	width: 350px;
 	height: 500px;
 	display:inline-block;
+	word-wrap:break-word;
+	float:left;
 }
 
 .frame{
