@@ -31,4 +31,10 @@ h3{
 #byline{
 	font-family:sans-serif;
 	text-align:right;
+	font-size:8px;
+}
+
+#frameContainer{
+	width: 550px;
+	height: 550px;
 }
